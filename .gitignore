@@ -1,0 +1,16 @@
+.venv/
+venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+
+data/train_test_data/*.csv
+data/processed_train_final_data/*.csv
+
+*.csv
+
+.DS_Store
+.venv/
+__pycache__/
+deployment/models/*.pkl
+*.csv
