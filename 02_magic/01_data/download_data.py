@@ -5,7 +5,18 @@ import pandas as pd
 import yfinance as yf
 
 
-TICKERS: List[str] = ["AAPL", "MSFT", "AMZN", "GOOGL", "META"]
+TICKERS: List[str] = [
+    "AAPL",
+    "MSFT",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "JPM",
+    "JNJ",
+    "XOM",
+    "PG",
+    "HD",
+]
 START_DATE = "2010-01-01"
 
 # This file lives in: 02_magic/01_data/download_data.py
